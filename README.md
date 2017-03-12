@@ -9,5 +9,5 @@ This is a self contained project, follow the below steps to setup the project an
 1. Edit src/main/resources/application.properties accordingly. 
 2. Install and use Postman to test API end-points. 
 
-API end-points can be found at
+After setup, API end-points can be found at
 http://localhost:8080/swagger-ui.html#!/file-controller/

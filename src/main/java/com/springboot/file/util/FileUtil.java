@@ -65,7 +65,8 @@ public class FileUtil {
     }
 
 	public static boolean isEmpty(SearchCriteria searchCriteria) {
-		if ((searchCriteria != null && searchCriteria.getFileName() == null && searchCriteria.getFileType() == null))
+		if ((searchCriteria != null && searchCriteria.getFileName() == null 
+				&& searchCriteria.getFileType() == null) && searchCriteria.getSizeInBytes() == null)
 			return true;
 		else 
 			return false;

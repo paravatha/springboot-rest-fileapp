@@ -1,6 +1,6 @@
 # springboot-rest-fileapp
 
-#Overview: 
+# Overview: 
 This project show cases REST API using Spring Boot and In-Memory Database.
 
 *This RESTFul API spring-boot application provides the following APIs:*
@@ -11,7 +11,7 @@ This project show cases REST API using Spring Boot and In-Memory Database.
 * API to search for file IDs with a search criterion.
 * A scheduler to poll for new files uploaded in the last hour and send an email.
 
-#Setup: 
+# Setup: 
 This is a self contained project, follow the below steps to setup the project and test
 
 1. Edit src/main/resources/application.properties accordingly. 
@@ -20,7 +20,7 @@ This is a self contained project, follow the below steps to setup the project an
 After setup, API end-points can be found at
 http://localhost:8080/swagger-ui.html#!/file-controller/
 
-#Assumptions/Limitations:
+# Assumptions/Limitations:
 * Since we are storing the files in local file system, file names have to be unique.
 * Only one file can be uploaded at a time.
 * Search criterion is limited (will be expanded in future).
